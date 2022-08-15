@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    background-color: #F3D3CD;
+}
+.gambar1{
+    float: right;
+    right: 0;
+}
+a{
+    text-decoration: none;
+}
+.contentawal{
+    background: url("/img/Background\ Content\ Awal.png");
+    background-size: cover;
+}
+.tentangKB{
+    background-color: #F3D3CD;
+}
+@media only screen and (max-width: 600px) {
+    .bingkaiatas{
+        display: none;
+    }
+  }
